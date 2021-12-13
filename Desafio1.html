@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretor de dívidas</title>
+    <link rel="icon" href="/imagens/Caesco.jpg">
+    <link rel="stylesheet" href="Desafio1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <script src="Desafio1.js"></script>
+</head>
+<body>
+    <h1>Ajuste suas dívidas</h1>
+    <hr>
+    <div class="container">
+        <form action="" id="form"> 
+            <div class="blocks">
+                <p class="smallp">Informe o valor no qual a dívida foi feita</p>
+                <input class="smalli" type="text" id="valorInicial">
+            </div>
+            <div class="blocks">
+                <p class="bigp">Informe o período no qual a dívida foi feita</p>
+                <input class="bigi" type="text" id="periodoInicial">
+            </div>
+            <div class="blocks">
+                <p class="bigp">Informe o período no qual se quer aplicar a correção de dívida</p>
+                <input class="bigi" type="text" id="periodoDesejado">
+            </div>
+            <div class="blocks">
+                <p class="smallp">Valor da dívida no período escolhido: </p>
+                <p id="resultado"></p>
+            </div>
+        </form>
+        <button id="botao" onclick="calculoAleatorio()">Corrija!</button>
+    </div>
+</body>
+</html>

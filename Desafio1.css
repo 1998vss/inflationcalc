@@ -1,0 +1,82 @@
+body {
+    text-align: center; background-color: #F4F0BB;
+}
+
+h1 {
+    font-family: 'Rammetto One', cursive;
+    color: #DA2C38;
+    justify-content: center;
+}
+
+.blocks {
+    background-color: #43291F; 
+    width: 35%;
+    height: 27%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 15px;
+}
+
+.container { 
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+    flex-flow: row wrap;
+}
+
+.blocks .bigp {
+    width: 87%;
+    height: 38%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rammetto One', cursive;
+    color: #87C38F;
+    margin: 0px;
+}
+
+.blocks .smallp {
+    width: 87%;
+    height: 33.75px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rammetto One', cursive;
+    color: #87C38F;
+    margin-top: 15px;
+}
+
+.blocks .bigi {
+    background-color: #226F54;
+    width: 80%;
+    height: 29%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.blocks .smalli {
+    background-color: #226F54;
+    width: 80%;
+    height: 29%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#form {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+}
+
+#resultado {
+    background-color: #DA2C38;
+}
