@@ -6,6 +6,6 @@ function calculoAleatorio(){
     let resultado = valorInicial * periodoInicial / periodoDesejado
     console.log(resultado)
     
-    document.getElementsById("resultado").innerHTML = resultado;
+    document.getElementById("resultado").innerHTML = resultado;
 }
 
